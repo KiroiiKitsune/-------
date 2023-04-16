@@ -230,6 +230,10 @@ do {
 while(n > 50)
 let num = 5;
 
+// задание 6
+for (let friday = 3; friday <= 31; friday = friday + 7) {
+  console.log(`Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет.`);
+}
 
 
 
