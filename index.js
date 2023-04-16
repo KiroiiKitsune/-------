@@ -200,6 +200,14 @@ while (a <= 5) {
   a++
 }
 
+// задание 3
+
+let c = 7;
+while (c <= 22) {
+  console.log (c)
+  c++
+}
+
 
 
 
