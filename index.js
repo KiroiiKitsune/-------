@@ -192,6 +192,14 @@ while (i < 2) {
   i++
 }
 
+// задание 2
+
+let a = 1;
+while (a <= 5) {
+  console.log (a);
+  a++
+}
+
 
 
 
