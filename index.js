@@ -181,6 +181,21 @@
 //    console.log("Неверное значение переменной clientOS");
 //  }
 
+// HomeWork-JS-4
+
+// задание 1
+
+let i = 0;
+
+while (i < 2) {
+  console.log ('Привет');
+  i++
+}
+
+
+
+
+
 
 
 
