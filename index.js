@@ -300,6 +300,26 @@ function mult(c, f) {
 console.log (mult(12 , 5))
 console.log (mult('n', 's'))
 
+// задние 6
+
+function cubeNumber() {
+    const number = prompt('Введите число:', '');
+    if (isNaN(number)) {
+      return 'Переданный параметр не является числом';
+    } else {
+      const result = number ** 3;
+      return `${number} в кубе равняется ${result}`;
+    }
+  }
+console.log(cubeNumber());
+// console.log(cubeNumber(0)); // 0 в кубе будет 0
+// console.log(cubeNumber(5)); //5 кубе будет 125
+// console.log(cubeNumber(10)); // 10 в кубе будет 1000
+// console.log(cubeNumber('abc')); // не являктся числом
+
+
+
+
 
 
 
