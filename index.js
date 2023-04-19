@@ -273,6 +273,22 @@ function printSquare(number) {
   const square = returnSquare(11);
   console.log (square);
 
+// задание 4
+
+function userAge() {
+    
+    let age = prompt('Сколько вам лет');
+    if (age < 0) {
+        return (`Вы ввели неправильное значение`)
+    } else if (age <= 12) {
+        return (`Привет друг!`)
+    } else {
+        return (`Добро пожаловать`)
+    }
+}
+alert (userAge())
+
+
 
 
 
