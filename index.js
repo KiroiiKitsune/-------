@@ -252,5 +252,4 @@ console.log (min(6,6))
 
 
 
-
  
