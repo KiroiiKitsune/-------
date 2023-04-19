@@ -288,6 +288,19 @@ function userAge() {
 }
 alert (userAge())
 
+// задание 5 
+
+function mult(c, f) {
+    if (isNaN(c) || isNaN(f)) {
+        return 'Одно или оба значения не являются числом'
+    } else {
+        return c * f 
+    }
+}
+console.log (mult(12 , 5))
+console.log (mult('n', 's'))
+
+
 
 
 
