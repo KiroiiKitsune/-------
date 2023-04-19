@@ -302,8 +302,8 @@ console.log (mult('n', 's'))
 
 // задние 6
 
-function cubeNumber(number) {
-    // const number = prompt('Введите число:', '');
+function cubeNumber() {
+    const number = prompt('Введите число:', '');
     if (isNaN(number)) {
       return 'Переданный параметр не является числом';
     } else {
