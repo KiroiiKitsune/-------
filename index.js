@@ -249,6 +249,15 @@ console.log (min(8,4))
 console.log (min(6,6))
 
 
+// задание 2
+
+function num(number) {
+    return number % 2 == 0 ? 'четное' : 'нечетное'
+    
+}
+
+console.log (num(4));
+console.log (num(7));
 
 
 
