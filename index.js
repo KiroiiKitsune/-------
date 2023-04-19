@@ -317,7 +317,33 @@ console.log(cubeNumber());
 // console.log(cubeNumber(10)); // 10 в кубе будет 1000
 // console.log(cubeNumber('abc')); // не являктся числом
 
+// задание 7
 
+let circle1 = {
+    radius: 5,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+  
+  let circle2 = {
+    radius: 7,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+
+console.log(circle1.getArea()); 
+console.log(circle1.getPerimeter()); 
+
+console.log(circle2.getArea()); 
+console.log(circle2.getPerimeter()); 
 
 
 
