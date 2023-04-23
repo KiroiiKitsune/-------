@@ -412,3 +412,22 @@ let arr = [1, 1, 1] ;
 arr.push(2, 2, 2);
 console.log(arr)
 
+// задание 6
+
+// 1 вариант
+
+let arrNumber = [9, 8, 7, 'a', 6, 5];
+
+arrNumber = arrNumber.sort();
+
+console.log(arrNumber.pop());
+console.log(arrNumber);
+
+// 2 вариант
+
+let arrNumber = [9, 8, 7, 'a', 6, 5];
+
+arrNumber.sort().pop();
+
+console.log(arrNumber);
+
