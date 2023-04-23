@@ -368,3 +368,11 @@ const position = arr.indexOf(4);
 
 console.log(position)
 
+// задание 3
+
+let line = [1, 3, 5, 10, 20];
+
+line = line.join(' ');
+
+console.log(line)
+
