@@ -518,3 +518,22 @@ function getNegativeValues(numbers) {
     let negativeNumbers = getNegativeValues(numbers);
     console.log(negativeNumbers)
 
+// задание 14
+
+const arr = [];
+const evenNumbers = [];
+
+for (let i = 0; i < 10; i++) {
+arr.push(Math.floor(Math.random() * 10));
+}
+
+console.log('Исходный массив:', arr);
+
+for (let i = 0; i < arr.length; i++) {
+if (arr[i] % 2 === 0) {
+evenNumbers.push(arr[i]);
+}
+}
+
+console.log('четные числа:', evenNumbers);
+
