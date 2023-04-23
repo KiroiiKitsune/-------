@@ -470,3 +470,10 @@ for (let i = 0; i < arr.length - 1; i++) {
 console.log(arr[i] + arr[i + 1]);
 }
 
+// задание 11
+
+const element = [11, 5, 10, 32,];
+const square = element.map(el => el ** 2);
+
+console.log(square);
+
