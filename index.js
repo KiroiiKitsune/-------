@@ -448,3 +448,9 @@ else {
 
 
 
+// задание 8
+
+let greeting = 'abcdef';
+
+console.log([...greeting].reverse().join(''))
+
