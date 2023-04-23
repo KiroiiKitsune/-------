@@ -361,3 +361,10 @@ for (let a = 0; a < numbs.length; a++) {
 	console.log(numbs[a]);
 }
 
+// задание 2 
+
+const arr = [1, 5, 4, 10, 0, 3];
+const position = arr.indexOf(4);
+
+console.log(position)
+
