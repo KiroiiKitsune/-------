@@ -431,3 +431,20 @@ arrNumber.sort().pop();
 
 console.log(arrNumber);
 
+// задание 7 
+
+const numbers = [9, 8, 7, 6, 5];
+
+const usserNumber = +prompt('ввдедите число от 1 до 10');
+
+if (numbers.includes(usserNumber)){
+  alert ('Это число есть в массиве');
+} else if (isNaN(usserNumber)){
+    alert ('Не является числом');
+}
+else {
+  alert ('Такого числа нет в массиве');
+};
+
+
+
