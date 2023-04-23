@@ -454,3 +454,11 @@ let greeting = 'abcdef';
 
 console.log([...greeting].reverse().join(''))
 
+// задание 9
+
+let arr = [[1, 2, 3],[4, 5, 6]];
+
+const flatArr = arr.flat();
+
+console.log(flatArr);
+
