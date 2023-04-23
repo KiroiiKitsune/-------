@@ -462,3 +462,11 @@ const flatArr = arr.flat();
 
 console.log(flatArr);
 
+// задаие 10
+
+const arr = [1, 3, 2, 9, 5, 8, 10, 4, 6, 7];
+
+for (let i = 0; i < arr.length - 1; i++) {
+console.log(arr[i] + arr[i + 1]);
+}
+
