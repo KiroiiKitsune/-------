@@ -477,3 +477,28 @@ const square = element.map(el => el ** 2);
 
 console.log(square);
 
+// задание 12
+
+// 1 вариант
+
+function getLengthWords(words) {
+    let arr = [];
+    for (let i = 0; i < words.length; i++) {
+    const wordLength = words[i].length;
+    arr.push(wordLength);
+    }
+    return arr;
+    }
+let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
+let wordsLength = getLengthWords(words)
+console.log (wordsLength)
+
+// 2 вариант
+
+const lengthWords = ['картошка', 'луна', 'солнцу', 'skypro', 'учеба'];
+const arr = lengthWords.map(function(len){
+    return len.length;
+});
+console.log(arr);
+
+
