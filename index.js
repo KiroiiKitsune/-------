@@ -502,3 +502,19 @@ const arr = lengthWords.map(function(len){
 console.log(arr);
 
 
+// задание 13
+
+function getNegativeValues(numbers) {
+    
+    const result = [];
+    for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < 0) {
+    result.push(numbers[i]);
+    }
+    }
+    return result;
+    }
+    let numbers = [2, -5, 8, -10, 6, -3];
+    let negativeNumbers = getNegativeValues(numbers);
+    console.log(negativeNumbers)
+
