@@ -537,3 +537,21 @@ evenNumbers.push(arr[i]);
 
 console.log('четные числа:', evenNumbers);
 
+// задание 15
+
+let arr = [];
+
+for (let i = 0; i < 6; i++) {
+arr.push(Math.ceil(Math.random() * 10) + 1 );
+}
+
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+sum += arr[i];
+}
+
+let average = sum / arr.length;
+
+console.log(`Среднее арифметическое: ${average}`);
+
