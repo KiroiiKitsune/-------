@@ -181,59 +181,169 @@
 //    console.log("Неверное значение переменной clientOS");
 //  }
 
-// HomeWork-JS-4
+// // HomeWork-JS-4
+
+// // задание 1
+
+// let i = 0;
+
+// while (i < 2) {
+//   console.log ('Привет');
+//   i++
+// }
+
+// // задание 2
+
+// let a = 1;
+// while (a <= 5) {
+//   console.log (a);
+//   a++
+// }
+
+// // задание 3
+
+// let c = 7;
+// while (c <= 22) {
+//   console.log (c)
+//   c++
+// }
+
+// // задание 4
+
+// const obj = {
+//   "Коля": 200,
+//   "Вася": 300,
+//   "Петя": 400,
+// };
+
+// for (const key in obj) {
+//     console.log (`${key} — зарплата ${obj[key]} долларов.`)
+// }
+
+// // задание 5
+
+// let n = 1000;
+// let num = 0;
+
+// while (n >= 50) { 
+//   n = n / 2;
+//   num++
+// }
+// console.log(n);
+// console.log(num);
+
+// // задание 6
+// for (let friday = 3; friday <= 31; friday = friday + 7) {
+//   console.log(`Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет.`);
+// }
+
+// HomeWork-JS-5
 
 // задание 1
 
-let i = 0;
-
-while (i < 2) {
-  console.log ('Привет');
-  i++
+function min (a, b) {
+    
+  return a < b ? a : b;
 }
+console.log (min(8,4))
+console.log (min(6,6))
+
 
 // задание 2
 
-let a = 1;
-while (a <= 5) {
-  console.log (a);
-  a++
+function num(number) {
+    return number % 2 == 0 ? 'четное' : 'нечетное'
+    
 }
+
+console.log (num(4));
+console.log (num(7));
 
 // задание 3
 
-let c = 7;
-while (c <= 22) {
-  console.log (c)
-  c++
-}
+function printSquare(number) {
+    console.log(number ** 2);
+  }
+  console.log (printSquare(5));
+
+  function returnSquare(number) {
+     return number ** 2 ;
+  }
+
+  const square = returnSquare(11);
+  console.log (square);
 
 // задание 4
 
-const obj = {
-  "Коля": 200,
-  "Вася": 300,
-  "Петя": 400,
-};
-
-for (const key in obj) {
-    console.log (`${key} — зарплата ${obj[key]} долларов.`)
+function userAge() {
+    
+    let age = prompt('Сколько вам лет');
+    if (age < 0) {
+        return (`Вы ввели неправильное значение`)
+    } else if (age <= 12) {
+        return (`Привет друг!`)
+    } else {
+        return (`Добро пожаловать`)
+    }
 }
+alert (userAge())
 
-// задание 5
+// задание 5 
 
-let n = 1000;
-do {
-  console.log (n);
-  n = n / 2;
+function mult(c, f) {
+    if (isNaN(c) || isNaN(f)) {
+        return 'Одно или оба значения не являются числом'
+    } else {
+        return c * f 
+    }
 }
-while(n > 50)
-let num = 5;
+console.log (mult(12 , 5))
+console.log (mult('n', 's'))
 
-// задание 6
-for (let friday = 3; friday <= 31; friday = friday + 7) {
-  console.log(`Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет.`);
-}
+// задние 6
+
+function cubeNumber() {
+    const number = prompt('Введите число:', '');
+    if (isNaN(number)) {
+      return 'Переданный параметр не является числом';
+    } else {
+      const result = number ** 3;
+      return `${number} в кубе равняется ${result}`;
+    }
+  }
+console.log(cubeNumber());
+// console.log(cubeNumber(0)); // 0 в кубе будет 0
+// console.log(cubeNumber(5)); //5 кубе будет 125
+// console.log(cubeNumber(10)); // 10 в кубе будет 1000
+// console.log(cubeNumber('abc')); // не являктся числом
+
+// задание 7
+
+let circle1 = {
+    radius: 5,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+  
+  let circle2 = {
+    radius: 7,
+    getArea: function() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+
+console.log(circle1.getArea()); 
+console.log(circle1.getPerimeter()); 
+
+console.log(circle2.getArea()); 
+console.log(circle2.getPerimeter()); 
 
 
 
