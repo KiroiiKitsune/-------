@@ -376,3 +376,32 @@ line = line.join(' ');
 
 console.log(line)
 
+// задание 4
+
+//1 вариант
+
+let arr = [];
+for (let i = 0; i < 3; i++)
+{
+    arr[i] = [];
+    for (let j = 0; j < 3; j++)
+    {
+        arr[i][j] = 1;
+    }
+}
+console.log(arr);
+
+//2 вариант
+
+let arr = []; 
+
+for (let i = 0; i < 3; i++) {  
+  let subArr = [];  
+
+  for (let j = 0; j < 3; j++) {  
+    subArr.push(1); 
+  }
+  arr.push(subArr);  
+}
+console.log(arr);  
+
