@@ -595,4 +595,27 @@ const max = Math.max(...numbers);
 console.log(`Минимальное число: ${min}`);
 console.log(`Максимальное число: ${max}`);
 
+// задание 5
+
+function randomNumbers(min, max) {
+    return Math.round(Math.random() * (min - max)) + max;
+}
+console.log (randomNumbers(1, 10))
+
+// задание 6
+
+function getRandomArray(n) {
+    const arr = [];
+  
+    for (let i = 0; i < n / 2; i++) {
+      arr.push(Math.floor(Math.random() * (n + 1)));
+    }
+  
+    return arr;
+  }
+  console.log(getRandomArray(7));
+  console.log(getRandomArray(12));
+
+
+
 
