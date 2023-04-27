@@ -345,214 +345,222 @@
 // console.log(circle2.getArea()); 
 // console.log(circle2.getPerimeter()); 
 
-// Home-Work 2.6
+// // Home-Work 2.6
 
-//  задание 1
-
-
-const numbs = [1, 5, 4, 10, 0, 3];
-
-for (let i = 0; i < numbs.length; i++) {
-	if (numbs[i] == 10) break;
-	console.log(numbs[i]);
-}
-for (let a = 0; a < numbs.length; a++) {
-	if (numbs[a] < 1) break;
-	console.log(numbs[a]);
-}
-
-// задание 2 
-
-const arr = [1, 5, 4, 10, 0, 3];
-const position = arr.indexOf(4);
-
-console.log(position)
-
-// задание 3
-
-let line = [1, 3, 5, 10, 20];
-
-line = line.join(' ');
-
-console.log(line)
-
-// задание 4
-
-//1 вариант
-
-let arr = [];
-for (let i = 0; i < 3; i++)
-{
-    arr[i] = [];
-    for (let j = 0; j < 3; j++)
-    {
-        arr[i][j] = 1;
-    }
-}
-console.log(arr);
-
-//2 вариант
-
-let arr = []; 
-
-for (let i = 0; i < 3; i++) {  
-  let subArr = [];  
-
-  for (let j = 0; j < 3; j++) {  
-    subArr.push(1); 
-  }
-  arr.push(subArr);  
-}
-console.log(arr);  
-
-// задание 5
-
-let arr = [1, 1, 1] ;
-
-arr.push(2, 2, 2);
-console.log(arr)
-
-// задание 6
-
-// 1 вариант
-
-let arrNumber = [9, 8, 7, 'a', 6, 5];
-
-arrNumber = arrNumber.sort();
-
-console.log(arrNumber.pop());
-console.log(arrNumber);
-
-// 2 вариант
-
-let arrNumber = [9, 8, 7, 'a', 6, 5];
-
-arrNumber.sort().pop();
-
-console.log(arrNumber);
-
-// задание 7 
-
-const numbers = [9, 8, 7, 6, 5];
-
-const usserNumber = +prompt('ввдедите число от 1 до 10');
-
-if (numbers.includes(usserNumber)){
-  alert ('Это число есть в массиве');
-} else if (isNaN(usserNumber)){
-    alert ('Не является числом');
-}
-else {
-  alert ('Такого числа нет в массиве');
-};
+// //  задание 1
 
 
+// const numbs = [1, 5, 4, 10, 0, 3];
 
-// задание 8
+// for (let i = 0; i < numbs.length; i++) {
+// 	if (numbs[i] == 10) break;
+// 	console.log(numbs[i]);
+// }
+// for (let a = 0; a < numbs.length; a++) {
+// 	if (numbs[a] < 1) break;
+// 	console.log(numbs[a]);
+// }
 
-let greeting = 'abcdef';
+// // задание 2 
 
-console.log([...greeting].reverse().join(''))
+// const arr = [1, 5, 4, 10, 0, 3];
+// const position = arr.indexOf(4);
 
-// задание 9
+// console.log(position)
 
-let arr = [[1, 2, 3],[4, 5, 6]];
+// // задание 3
 
-const flatArr = arr.flat();
+// let line = [1, 3, 5, 10, 20];
 
-console.log(flatArr);
+// line = line.join(' ');
 
-// задаие 10
+// console.log(line)
 
-const arr = [1, 3, 2, 9, 5, 8, 10, 4, 6, 7];
+// // задание 4
 
-for (let i = 0; i < arr.length - 1; i++) {
-console.log(arr[i] + arr[i + 1]);
-}
+// //1 вариант
 
-// задание 11
+// let arr = [];
+// for (let i = 0; i < 3; i++)
+// {
+//     arr[i] = [];
+//     for (let j = 0; j < 3; j++)
+//     {
+//         arr[i][j] = 1;
+//     }
+// }
+// console.log(arr);
 
-const element = [11, 5, 10, 32,];
-const square = element.map(el => el ** 2);
+// //2 вариант
 
-console.log(square);
+// let arr = []; 
 
-// задание 12
+// for (let i = 0; i < 3; i++) {  
+//   let subArr = [];  
 
-// 1 вариант
+//   for (let j = 0; j < 3; j++) {  
+//     subArr.push(1); 
+//   }
+//   arr.push(subArr);  
+// }
+// console.log(arr);  
 
-function getLengthWords(words) {
-    let arr = [];
-    for (let i = 0; i < words.length; i++) {
-    const wordLength = words[i].length;
-    arr.push(wordLength);
-    }
-    return arr;
-    }
-let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
-let wordsLength = getLengthWords(words)
-console.log (wordsLength)
+// // задание 5
 
-// 2 вариант
+// let arr = [1, 1, 1] ;
 
-const lengthWords = ['картошка', 'луна', 'солнцу', 'skypro', 'учеба'];
-const arr = lengthWords.map(function(len){
-    return len.length;
-});
-console.log(arr);
+// arr.push(2, 2, 2);
+// console.log(arr)
+
+// // задание 6
+
+// // 1 вариант
+
+// let arrNumber = [9, 8, 7, 'a', 6, 5];
+
+// arrNumber = arrNumber.sort();
+
+// console.log(arrNumber.pop());
+// console.log(arrNumber);
+
+// // 2 вариант
+
+// let arrNumber = [9, 8, 7, 'a', 6, 5];
+
+// arrNumber.sort().pop();
+
+// console.log(arrNumber);
+
+// // задание 7 
+
+// const numbers = [9, 8, 7, 6, 5];
+
+// const usserNumber = +prompt('ввдедите число от 1 до 10');
+
+// if (numbers.includes(usserNumber)){
+//   alert ('Это число есть в массиве');
+// } else if (isNaN(usserNumber)){
+//     alert ('Не является числом');
+// }
+// else {
+//   alert ('Такого числа нет в массиве');
+// };
 
 
-// задание 13
 
-function getNegativeValues(numbers) {
+// // задание 8
+
+// let greeting = 'abcdef';
+
+// console.log([...greeting].reverse().join(''))
+
+// // задание 9
+
+// let arr = [[1, 2, 3],[4, 5, 6]];
+
+// const flatArr = arr.flat();
+
+// console.log(flatArr);
+
+// // задаие 10
+
+// const arr = [1, 3, 2, 9, 5, 8, 10, 4, 6, 7];
+
+// for (let i = 0; i < arr.length - 1; i++) {
+// console.log(arr[i] + arr[i + 1]);
+// }
+
+// // задание 11
+
+// const element = [11, 5, 10, 32,];
+// const square = element.map(el => el ** 2);
+
+// console.log(square);
+
+// // задание 12
+
+// // 1 вариант
+
+// function getLengthWords(words) {
+//     let arr = [];
+//     for (let i = 0; i < words.length; i++) {
+//     const wordLength = words[i].length;
+//     arr.push(wordLength);
+//     }
+//     return arr;
+//     }
+// let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
+// let wordsLength = getLengthWords(words)
+// console.log (wordsLength)
+
+// // 2 вариант
+
+// const lengthWords = ['картошка', 'луна', 'солнцу', 'skypro', 'учеба'];
+// const arr = lengthWords.map(function(len){
+//     return len.length;
+// });
+// console.log(arr);
+
+
+// // задание 13
+
+// function getNegativeValues(numbers) {
     
-    const result = [];
-    for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] < 0) {
-    result.push(numbers[i]);
-    }
-    }
-    return result;
-    }
-    let numbers = [2, -5, 8, -10, 6, -3];
-    let negativeNumbers = getNegativeValues(numbers);
-    console.log(negativeNumbers)
+//     const result = [];
+//     for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] < 0) {
+//     result.push(numbers[i]);
+//     }
+//     }
+//     return result;
+//     }
+//     let numbers = [2, -5, 8, -10, 6, -3];
+//     let negativeNumbers = getNegativeValues(numbers);
+//     console.log(negativeNumbers)
 
-//    доп задания  
-// задание 14
+// //    доп задания  
+// // задание 14
 
-const arr = [];
-const evenNumbers = [];
+// const arr = [];
+// const evenNumbers = [];
 
-for (let i = 0; i < 10; i++) {
-arr.push(Math.floor(Math.random() * 10));
-}
+// for (let i = 0; i < 10; i++) {
+// arr.push(Math.floor(Math.random() * 10));
+// }
 
-console.log('Исходный массив:', arr);
+// console.log('Исходный массив:', arr);
 
-for (let i = 0; i < arr.length; i++) {
-if (arr[i] % 2 === 0) {
-evenNumbers.push(arr[i]);
-}
-}
+// for (let i = 0; i < arr.length; i++) {
+// if (arr[i] % 2 === 0) {
+// evenNumbers.push(arr[i]);
+// }
+// }
 
-console.log('четные числа:', evenNumbers);
+// console.log('четные числа:', evenNumbers);
 
-// задание 15
+// // задание 15
 
-let arr = [];
+// let arr = [];
 
-for (let i = 0; i < 6; i++) {
-arr.push(Math.ceil(Math.random() * 10) + 1 );
-}
+// for (let i = 0; i < 6; i++) {
+// arr.push(Math.ceil(Math.random() * 10) + 1 );
+// }
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < arr.length; i++) {
-sum += arr[i];
-}
+// for (let i = 0; i < arr.length; i++) {
+// sum += arr[i];
+// }
 
-let average = sum / arr.length;
+// let average = sum / arr.length;
 
-console.log(`Среднее арифметическое: ${average}`);
+// console.log(`Среднее арифметическое: ${average}`);
+
+// Home-Work 2.7
+
+// задание 1
+
+let str = "js";
+str = str.toUpperCase();
+console.log(str);
 
