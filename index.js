@@ -564,3 +564,14 @@ let str = "js";
 str = str.toUpperCase();
 console.log(str);
 
+// 2 задание
+
+const productsFruits = ['яблоко', 'банан', 'груша', 'киви', 'виноград', 'вишня'];
+const search = 'ви'
+
+productsFruits.forEach((fruits) => {
+if (fruits.toLowerCase().startsWith(search.toLowerCase())) {
+    console.log(fruits);
+}
+});
+
