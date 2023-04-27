@@ -624,3 +624,9 @@ function getRandomInt(min, max) {
   }
     console.log(getRandomInt(1, 10));
 
+// задание 8
+
+let currentDate = new Date();
+
+console.log(currentDate);
+
