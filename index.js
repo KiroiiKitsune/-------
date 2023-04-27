@@ -630,3 +630,17 @@ let currentDate = new Date();
 
 console.log(currentDate);
 
+// задание 9
+
+let currentDate = new Date(); 
+let nextDate = new Date();
+let daysToAdd = 73;
+
+nextDate.setDate(currentDate.getDate() + daysToAdd);
+nextDate.toLocaleTimeString('ru-RU');
+
+console.log(nextDate);
+
+
+
+
