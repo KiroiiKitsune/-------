@@ -585,3 +585,14 @@ let roundNearest = Math.round(num);
 
 console.log(roundDawn, roundUp, roundNearest);
 
+// задание 4
+
+const numbers = [52, 53, 49, 77, 21, 32];
+
+const min = Math.min(...numbers);
+const max = Math.max(...numbers);
+
+console.log(`Минимальное число: ${min}`);
+console.log(`Максимальное число: ${max}`);
+
+
