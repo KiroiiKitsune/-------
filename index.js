@@ -575,3 +575,13 @@ if (fruits.toLowerCase().startsWith(search.toLowerCase())) {
 }
 });
 
+// задание 3 
+
+let num = 32.58884;
+
+let roundDawn = Math.floor(num);
+let roundUp = Math.ceil(num);
+let roundNearest = Math.round(num);
+
+console.log(roundDawn, roundUp, roundNearest);
+
