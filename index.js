@@ -617,5 +617,10 @@ function getRandomArray(n) {
   console.log(getRandomArray(12));
 
 
+// задание 7
 
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+    console.log(getRandomInt(1, 10));
 
