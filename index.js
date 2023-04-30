@@ -726,3 +726,13 @@ console.log('30 секунд прошло');
 }
 }, 3000);
 
+// задание 4
+
+function delayForSecond(callback) {
+setTimeout(callback, 1000);
+}
+
+delayForSecond(function () {
+console.log('Привет, Глеб!');
+});
+
