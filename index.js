@@ -1,70 +1,70 @@
 // // HomeWork-JS-2
 
-// // // задание 1
-// // let a = 10;
-// // alert (a);
-// // a = 20;
-// // alert (a);
+// // задание 1
+// let a = 10;
+// alert (a);
+// a = 20;
+// alert (a);
 
-// // // задание 2 
-// // let year = 2007 ;
-// // alert (`года выпуска первого iPhone - ${year}`);
+// // задание 2 
+// let year = 2007 ;
+// alert (`года выпуска первого iPhone - ${year}`);
 
-// // // задание 3
-// // let nameJS =  (`Брендан Эйх`);
-// // alert (`Создатель JavaScript - ${nameJS}`);
+// // задание 3
+// let nameJS =  (`Брендан Эйх`);
+// alert (`Создатель JavaScript - ${nameJS}`);
 
-// // // задание 4
-// // let b = 10;
-// // let c = 2;
-// // alert (` сложение ${b+c}\n вычитание ${b-c}\n умножение ${b*c}\n деление ${b/c}`);
+// // задание 4
+// let b = 10;
+// let c = 2;
+// alert (` сложение ${b+c}\n вычитание ${b-c}\n умножение ${b*c}\n деление ${b/c}`);
 
-// // // задание 5
-// // let result = 2**5;
-// // alert (result);
+// // задание 5
+// let result = 2**5;
+// alert (result);
 
-// // // задание 6
-// // let d = 9;
-// // let f = 2;
-// // alert (d%f);
+// // задание 6
+// let d = 9;
+// let f = 2;
+// alert (d%f);
 
-// // // задание 7
-// // let num = 1;
-// // num += 5;
-// // num -= 3;
-// // num *= 7;
-// // num /= 3;
-// // num ++ ;
-// // num -- ;
-// // alert(num);
+// // задание 7
+// let num = 1;
+// num += 5;
+// num -= 3;
+// num *= 7;
+// num /= 3;
+// num ++ ;
+// num -- ;
+// alert(num);
 
-// // //задание 8
-// // let age = prompt (`Сколько вам лет?`);
-// // alert (age);
+// //задание 8
+// let age = prompt (`Сколько вам лет?`);
+// alert (age);
 
-// // // задание 9
-// // const user = {
-// //     name: `Mikhail`,
-// //     age: 33,
-// //     isAdmin: true,
-// // };
+// // задание 9
+// const user = {
+//     name: `Mikhail`,
+//     age: 33,
+//     isAdmin: true,
+// };
 
-// // //задание 9.1
-// // user [`city of residence`] =`Rostov-on-don`;
+// //задание 9.1
+// user [`city of residence`] =`Rostov-on-don`;
 
-// // //задание 9.2
-// // user.age = 50;
+// //задание 9.2
+// user.age = 50;
 
-// // //задание 9.3
-// // delete user [`city of residence`];
+// //задание 9.3
+// delete user [`city of residence`];
 
-// // //задание 9.4
-// // let info = prompt(`Какую информацию хотите узнать о пользователе?`);
-// // alert (user[info]);
+// //задание 9.4
+// let info = prompt(`Какую информацию хотите узнать о пользователе?`);
+// alert (user[info]);
 
-// // //задание 10
-// // let userName = prompt (`Как тебя зовут?`);
-// // alert (`Привет, ${userName}!`);
+// //задание 10
+// let userName = prompt (`Как тебя зовут?`);
+// alert (`Привет, ${userName}!`);
 
 
 
@@ -556,108 +556,207 @@
 
 // console.log(`Среднее арифметическое: ${average}`);
 
-// Home-Work 2.7
+// // Home-Work 2.7
 
-// задание 1
+// // задание 1
 
-let str = "js";
-str = str.toUpperCase();
-console.log(str);
+// let str = "js";
+// str = str.toUpperCase();
+// console.log(str);
 
-// 2 задание
+// // 2 задание
 
-const productsFruits = ['яблоко', 'банан', 'груша', 'киви', 'виноград', 'вишня'];
-const search = 'ви'
+// const productsFruits = ['яблоко', 'банан', 'груша', 'киви', 'виноград', 'вишня'];
+// const search = 'ви'
 
-productsFruits.forEach((fruits) => {
-if (fruits.toLowerCase().startsWith(search.toLowerCase())) {
-    console.log(fruits);
+// productsFruits.forEach((fruits) => {
+// if (fruits.toLowerCase().startsWith(search.toLowerCase())) {
+//     console.log(fruits);
+// }
+// });
+
+// // задание 3 
+
+// let num = 32.58884;
+
+// let roundDawn = Math.floor(num);
+// let roundUp = Math.ceil(num);
+// let roundNearest = Math.round(num);
+
+// console.log(roundDawn, roundUp, roundNearest);
+
+// // задание 4
+
+// const numbers = [52, 53, 49, 77, 21, 32];
+
+// const min = Math.min(...numbers);
+// const max = Math.max(...numbers);
+
+// console.log(`Минимальное число: ${min}`);
+// console.log(`Максимальное число: ${max}`);
+
+// // задание 5
+
+// function randomNumbers(min, max) {
+//     return Math.round(Math.random() * (min - max)) + max;
+// }
+// console.log (randomNumbers(1, 10))
+
+// // задание 6
+
+// function getRandomArray(n) {
+//     const arr = [];
+  
+//     for (let i = 0; i < n / 2; i++) {
+//       arr.push(Math.floor(Math.random() * (n + 1)));
+//     }
+  
+//     return arr;
+//   }
+//   console.log(getRandomArray(7));
+//   console.log(getRandomArray(12));
+
+
+// // задание 7
+
+// function getRandomInt(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
+//     console.log(getRandomInt(1, 10));
+
+// // задание 8
+
+// let currentDate = new Date();
+
+// console.log(currentDate);
+
+// // задание 9
+
+// let currentDate = new Date(); 
+// let nextDate = new Date();
+// let daysToAdd = 73;
+
+// nextDate.setDate(currentDate.getDate() + daysToAdd);
+// nextDate.toLocaleTimeString('ru-RU');
+
+// console.log(nextDate);
+
+
+
+// // задание 10
+
+// function formatDate(date) {
+//     const daysOfWeek = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+//     const months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
+//     const dayOfWeek = daysOfWeek[date.getDay()];
+//     const day = date.getDate();
+//     const month = months[date.getMonth()];
+//     const year = date.getFullYear();
+//     const hours = date.getHours().toString().padStart(2, '0');
+//     const minutes = date.getMinutes().toString().padStart(2, '0');
+//     const seconds = date.getSeconds().toString().padStart(2, '0');
+//     return `Дата: ${day} ${month} ${year}: ${dayOfWeek}.\nВремя: ${hours}:${minutes}:${seconds}`;
+//     }
+    
+//     const currentDate = new Date();
+//     console.log(formatDate(currentDate));
+
+// Home Work - 2.8
+
+// задание 1 
+
+const people = [
+{ name: 'Глеб', age: 29 },
+{ name: 'Анна', age: 17 },
+{ name: 'Олег', age: 7 },
+{ name: 'Оксана', age: 47 }
+];
+
+console.log(people.sort((a, b) => a.age - b.age));
+
+// задание 2
+
+function map(arr, ruleFunction) {
+const result = [];
+for (let i = 0; i < arr.length; i++) {
+result.push(ruleFunction(arr[i]));
 }
-});
+return result;
+}
 
-// задание 3 
+function filter(arr, ruleFunction) {
+const mapResult = map(arr, ruleFunction);
+const result = [];
+for (let i = 0; i < arr.length; i++) {
+if (mapResult[i]) {
+result.push(arr[i]);
+}
+}
+return result;
+}
 
-let num = 32.58884;
+function isPositive(num) {
+return num > 0;
+}
 
-let roundDawn = Math.floor(num);
-let roundUp = Math.ceil(num);
-let roundNearest = Math.round(num);
+function isMale(person) {
+return person.gender === 'male';
+}
 
-console.log(roundDawn, roundUp, roundNearest);
+console.log(filter([3, -4, 1, 9], isPositive));
+
+const people = [
+{name: 'Глеб', gender: 'male'},
+{name: 'Анна', gender: 'female'},
+{name: 'Олег', gender: 'male'},
+{name: 'Оксана', gender: 'female'}
+];
+
+console.log(filter(people, isMale)); 
+
+// задание 3
+
+let count = 0;
+const intervalID = setInterval(function() {
+console.log(new Date());
+count += 3;
+if (count >= 30) {
+clearInterval(intervalID);
+console.log('30 секунд прошло');
+}
+}, 3000);
 
 // задание 4
 
-const numbers = [52, 53, 49, 77, 21, 32];
+function delayForSecond(callback) {
+setTimeout(callback, 1000);
+}
 
-const min = Math.min(...numbers);
-const max = Math.max(...numbers);
-
-console.log(`Минимальное число: ${min}`);
-console.log(`Максимальное число: ${max}`);
+delayForSecond(function () {
+console.log('Привет, Глеб!');
+});
 
 // задание 5
 
-function randomNumbers(min, max) {
-    return Math.round(Math.random() * (min - max)) + max;
+// Функция delayForSecond через 1 секунду пишет в консоль «Прошла одна секунда», 
+// а затем вызывает переданный колбэк
+function delayForSecond(cb) {
+    setTimeout(() => {
+        console.log('Прошла одна секунда');
+				if(cb) { cb(); 
+        }
+    }, 1000)
 }
-console.log (randomNumbers(1, 10))
 
-// задание 6
+// Функция sayHi выводит в консоль приветствие для указанного имени
+function sayHi (name) {
+    console.log(`Привет, ${name}!`);
+}
 
-function getRandomArray(n) {
-    const arr = [];
-  
-    for (let i = 0; i < n / 2; i++) {
-      arr.push(Math.floor(Math.random() * (n + 1)));
-    }
-  
-    return arr;
-  }
-  console.log(getRandomArray(7));
-  console.log(getRandomArray(12));
+// Код выше менять нельзя
 
-
-// задание 7
-
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-    console.log(getRandomInt(1, 10));
-
-// задание 8
-
-let currentDate = new Date();
-
-console.log(currentDate);
-
-// задание 9
-
-let currentDate = new Date(); 
-let nextDate = new Date();
-let daysToAdd = 73;
-
-nextDate.setDate(currentDate.getDate() + daysToAdd);
-nextDate.toLocaleTimeString('ru-RU');
-
-console.log(nextDate);
-
-
-
-// задание 10
-
-function formatDate(date) {
-    const daysOfWeek = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-    const months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
-    const dayOfWeek = daysOfWeek[date.getDay()];
-    const day = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-    const hours = date.getHours().toString().padStart(2, '0');
-    const minutes = date.getMinutes().toString().padStart(2, '0');
-    const seconds = date.getSeconds().toString().padStart(2, '0');
-    return `Дата: ${day} ${month} ${year}: ${dayOfWeek}.\nВремя: ${hours}:${minutes}:${seconds}`;
-    }
-    
-    const currentDate = new Date();
-    console.log(formatDate(currentDate));
+// Нужно изменить код ниже:
+delayForSecond(() => { 
+    sayHi('Глеб')
+    });
 
