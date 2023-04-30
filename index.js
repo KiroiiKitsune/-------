@@ -714,4 +714,15 @@ const people = [
 
 console.log(filter(people, isMale)); 
 
+// задание 3
+
+let count = 0;
+const intervalID = setInterval(function() {
+console.log(new Date());
+count += 3;
+if (count >= 30) {
+clearInterval(intervalID);
+console.log('30 секунд прошло');
+}
+}, 3000);
 
